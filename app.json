@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "weather-app",
-    "slug": "weather-app",
+    "slug": "weather-demo-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,12 +16,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/blue-yellow-ig.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.burhangarari.weatherdemoapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/blue-yellow-ig.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f9934f2-aba2-4b78-9d25-36aa1247fd61"
+      }
+    },
+    "owner": "burhangarari"
   }
 }
